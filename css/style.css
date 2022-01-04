@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* by making the whole wrapper flex it allowed for my right and left sides to line up */
 .wrapper {
     display: flex;
     margin: 160px 160px;
@@ -82,7 +83,6 @@ input[type=password] {
     color: #6C6A61;
 }
 
-
 input[type=submit] {
     padding: 10px 40px;
     margin: 5px;
@@ -101,8 +101,8 @@ input[type=submit]:hover {
 .form-right-wrapper {
     width: 280px;
     height: auto;
-    background: url('form-pic.jpg');
+    background: url('./images/form-pic.jpg');
     background-position: center;
     background-size: cover;
-    border-radius: 15px 0px 0px 15px;
+    /* border-radius: 15px 0px 0px 15px; */
 }
