@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Form Practice</title>
+</head>
+<body>
+    <div class = "wrapper">
+        <div class = "form-left-wrapper">
+            <h2 class = "form-title">Create Account</h2>
+            <ul>
+                <a href = "#"><li class = "form-icon"><img src = "facebook.svg"></li></a>
+                <a href = "#"><li class = "form-icon"><img src = "linkedin.svg"></li></a>
+                <a href = "#"><li class = "form-icon"><img src = "twitter.svg"></li></a>
+            </ul>
+            <p>or use your email for registration:</p>
+            <form>
+               <input type = "text" placeholder="Name">
+               <br>
+               <input type = "text" placeholder="Email">
+               <br>
+               <div class = "password-wrapper">        
+                   <input type = "password" placeholder="Password" id = "password">
+                    <img class = "password-eye" src = "eye-off.svg" alt = "closed eyelid">
+               </div>
+               <br>
+               <div class = "terms-condition">
+                   <input type = "checkbox" class = "check">
+                   <span>I agree to the <span class = "accent-words">Terms</span> and <span class = "accent-words">Privacy Policy</span></span>
+                </div>
+                <br>
+                <div class = "form-buttons">
+                    <input type = "submit" value = "Sign Up" class = "sign-up">
+                    <input type = "submit" value = "Sign In" class = "sign-in">
+                </div>
+            </form>
+        </div>
+        <div class = "form-right-wrapper"></div>
+    </div>
+</body>
+</html>

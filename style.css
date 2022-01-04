@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    margin: 160px 160px;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+
+.form-left-wrapper {
+    text-align: center;
+    background: #EDE4E330;
+    padding: 10px;
+    
+}
+
+.form-title {
+    letter-spacing: 2px;
+    color:#6C6A61;
+    margin: 20px;
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
+
+.form-icon {
+    list-style-type: none;
+    display: inline;
+    margin: 20px; 
+}
+
+img {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+/* using a selector to drill into the type of input chosen */
+input[type=text],
+input[type=password] {
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid #C0C0C0;
+    margin: 5px;
+    background: #C0C0C030;
+}
+
+
+/* makes it so that the eye moves with the input wrapper */
+.password-wrapper {
+    position: relative;
+}
+
+.password-eye {
+    position: absolute;
+    border: none;
+    padding: 0px;
+    top: 11px;
+    right: 40px;
+    filter: invert(40%) sepia(14%) saturate(245%) hue-rotate(12deg) brightness(97%) contrast(86%);
+}
+
+
+.terms-condition {
+    margin: 20px;
+}
+
+.accent-words {
+    color: #6C6A61;
+}
+
+
+input[type=submit] {
+    padding: 10px 40px;
+    margin: 5px;
+    background: none;
+    border: 1px solid #6C6A61;
+    border-radius: 5px;
+    color: #6C6A61;
+}
+
+input[type=submit]:hover {
+    background: #6C6A61;
+    color: #f2f2f2;
+}
+
+/* making the height auto allowed for the picture to fill the whole wrapper */
+.form-right-wrapper {
+    width: 280px;
+    height: auto;
+    background: url('form-pic.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+}
